@@ -1,0 +1,65 @@
+/* Fondo con imagen de campo verde al atardecer */
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background: url('https://images.unsplash.com/photo-1473181488821-2d23949a045a') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor con fondo semitransparente */
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para los botones */
+button {
+    font-size: 20px;
+    margin: 10px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Botón "Sí" */
+#yesButton {
+    background-color: #ff66b2;
+    color: white;
+}
+
+#yesButton:hover {
+    background-color: #ff3385;
+    transform: scale(1.1);
+}
+
+/* Botón "No" */
+#noButton {
+    background-color: #ff3333;
+    color: white;
+}
+
+#noButton:hover {
+    background-color: #cc0000;
+    transform: scale(1.1);
+}
+
+/* Estilo para los mensajes y gifs */
+#response {
+    margin-top: 20px;
+}
+
+img {
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
